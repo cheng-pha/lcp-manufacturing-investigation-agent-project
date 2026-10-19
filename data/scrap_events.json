@@ -1,0 +1,10 @@
+[
+  {
+    "scrap_event_id": "SE-5001",
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T22:00:00",
+    "reason_code": "CONTAMINATION",
+    "reason": "Device was scrapped after potential contamination was confirmed during final inspection.",
+    "approved_by": "Quality Supervisor"
+  }
+]

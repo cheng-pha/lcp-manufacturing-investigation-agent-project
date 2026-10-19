@@ -1,0 +1,26 @@
+[
+  {
+    "device_id": "LCP-10482",
+    "status": "SCRAPPED",
+    "current_step": "Final Inspection",
+    "next_step": null
+  },
+  {
+    "device_id": "LCP-10501",
+    "status": "IN_PROCESS",
+    "current_step": "Controlled Hold",
+    "next_step": "Final Inspection"
+  },
+  {
+    "device_id": "LCP-10517",
+    "status": "IN_PROCESS",
+    "current_step": "Functional Testing",
+    "next_step": "Controlled Hold"
+  },
+  {
+    "device_id": "LCP-10532",
+    "status": "READY_FOR_ASSEMBLY",
+    "current_step": "Device Assembly",
+    "next_step": "Functional Testing"
+  }
+]

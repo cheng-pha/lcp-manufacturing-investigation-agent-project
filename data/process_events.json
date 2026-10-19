@@ -1,0 +1,79 @@
+[
+  {
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T08:00:00",
+    "step": "Component Receiving",
+    "status": "COMPLETED",
+    "details": "Required components received and verified."
+  },
+  {
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T09:30:00",
+    "step": "Component Inspection",
+    "status": "PASSED",
+    "details": "Incoming components passed inspection."
+  },
+  {
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T11:00:00",
+    "step": "Device Assembly",
+    "status": "COMPLETED",
+    "details": "Device assembly completed."
+  },
+  {
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T14:00:00",
+    "step": "Functional Testing",
+    "status": "PASSED",
+    "details": "Device passed functional testing."
+  },
+  {
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T15:00:00",
+    "step": "Controlled Hold",
+    "status": "COMPLETED",
+    "details": "Required controlled hold completed."
+  },
+  {
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T21:30:00",
+    "step": "Final Inspection",
+    "status": "FAILED",
+    "details": "Potential contamination identified during inspection."
+  },
+  {
+    "device_id": "LCP-10501",
+    "timestamp": "2026-10-06T08:00:00",
+    "step": "Component Receiving",
+    "status": "COMPLETED",
+    "details": "Required components received and verified."
+  },
+  {
+    "device_id": "LCP-10501",
+    "timestamp": "2026-10-06T09:00:00",
+    "step": "Device Assembly",
+    "status": "COMPLETED",
+    "details": "Device assembly completed."
+  },
+  {
+    "device_id": "LCP-10501",
+    "timestamp": "2026-10-06T10:00:00",
+    "step": "Controlled Hold",
+    "status": "IN_PROGRESS",
+    "details": "Required controlled hold is currently in progress."
+  },
+  {
+    "device_id": "LCP-10517",
+    "timestamp": "2026-10-06T07:30:00",
+    "step": "Device Assembly",
+    "status": "COMPLETED",
+    "details": "Device assembly completed."
+  },
+  {
+    "device_id": "LCP-10517",
+    "timestamp": "2026-10-06T09:00:00",
+    "step": "Functional Testing",
+    "status": "IN_PROGRESS",
+    "details": "Functional testing is currently in progress."
+  }
+]

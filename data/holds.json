@@ -1,0 +1,22 @@
+[
+  {
+    "hold_id": "H-7001",
+    "device_id": "LCP-10482",
+    "hold_type": "CONTROLLED_HOLD",
+    "required_hours": 6,
+    "start_time": "2026-09-28T15:00:00",
+    "end_time": "2026-09-28T21:00:00",
+    "status": "COMPLETED",
+    "reason": "Required controlled hold before final inspection."
+  },
+  {
+    "hold_id": "H-7002",
+    "device_id": "LCP-10501",
+    "hold_type": "CONTROLLED_HOLD",
+    "required_hours": 6,
+    "start_time": "2026-10-06T10:00:00",
+    "end_time": null,
+    "status": "IN_PROGRESS",
+    "reason": "Device must remain in controlled hold before the next process step."
+  }
+]

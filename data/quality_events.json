@@ -1,0 +1,20 @@
+[
+  {
+    "quality_event_id": "QE-1001",
+    "device_id": "LCP-10482",
+    "timestamp": "2026-09-28T21:30:00",
+    "type": "CONTAMINATION",
+    "severity": "HIGH",
+    "status": "CONFIRMED",
+    "details": "Potential contamination identified during final inspection."
+  },
+  {
+    "quality_event_id": "QE-1002",
+    "device_id": "LCP-10517",
+    "timestamp": "2026-10-06T09:30:00",
+    "type": "FUNCTIONAL_TEST",
+    "severity": "MEDIUM",
+    "status": "OPEN",
+    "details": "Functional testing is still in progress."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "device_id": "LCP-10482",
+    "device_type": "Leadless Cardiac Pacemaker",
+    "lot": "LOT-2026-041",
+    "current_status": "SCRAPPED",
+    "current_step": "Final Inspection"
+  },
+  {
+    "device_id": "LCP-10501",
+    "device_type": "Leadless Cardiac Pacemaker",
+    "lot": "LOT-2026-042",
+    "current_status": "IN_PROCESS",
+    "current_step": "Controlled Hold"
+  },
+  {
+    "device_id": "LCP-10517",
+    "device_type": "Leadless Cardiac Pacemaker",
+    "lot": "LOT-2026-042",
+    "current_status": "IN_PROCESS",
+    "current_step": "Functional Testing"
+  },
+  {
+    "device_id": "LCP-10532",
+    "device_type": "Leadless Cardiac Pacemaker",
+    "lot": "LOT-2026-043",
+    "current_status": "READY_FOR_ASSEMBLY",
+    "current_step": "Device Assembly"
+  }
+]
