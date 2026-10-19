@@ -23,23 +23,37 @@ An AI-powered manufacturing investigation assistant for leadless cardiac pacemak
 ## Project Structure
 
 lcp-agent/
-|-- agent.py
-|-- api.py
-|-- requirements.txt
-|-- .env.example
-|-- .gitignore
-|-- data/
-|-- procedures/
-|-- tools/
-|   |-- database.py
-|   |-- manufacturing.py
-|   |-- procedures.py
-|   `-- quality.py
-`-- web/
-    |-- app/
-    |-- public/
-    |-- package.json
-    `-- package-lock.json
+├── agent.py
+├── api.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+├── data/
+│   ├── assembly_status.json
+│   ├── devices.json
+│   ├── holds.json
+│   ├── process_events.json
+│   ├── quality_events.json
+│   └── scrap_events.json
+├── procedures/
+│   ├── contamination_protocol.md
+│   ├── controlled_hold.md
+│   └── scrap_policy.md
+├── tools/
+│   ├── __init__.py
+│   ├── database.py
+│   ├── manufacturing.py
+│   ├── procedures.py
+│   └── quality.py
+└── web/
+    ├── app/
+    │   └── api/
+    │       └── investigate/
+    │           └── route.ts
+    ├── public/
+    ├── package.json
+    └── package-lock.json
+
 
 
 ## Prerequisites
