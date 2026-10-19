@@ -21,38 +21,13 @@ An AI-powered manufacturing investigation assistant for leadless cardiac pacemak
 - **Communication:** HTTP API and server-sent events (SSE)
 
 ## Project Structure
-lcp-agent/
-├── agent.py
-├── api.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-├── data/
-│   ├── assembly_status.json
-│   ├── devices.json
-│   ├── holds.json
-│   ├── process_events.json
-│   ├── quality_events.json
-│   └── scrap_events.json
-├── procedures/
-│   ├── contamination_protocol.md
-│   ├── controlled_hold.md
-│   └── scrap_policy.md
-├── tools/
-│   ├── __init__.py
-│   ├── database.py
-│   ├── manufacturing.py
-│   ├── procedures.py
-│   └── quality.py
-└── web/
-    ├── app/
-    │   └── api/
-    │       └── investigate/
-    │           └── route.ts
-    ├── public/
-    ├── package.json
-    └── package-lock.json
-
+agent.py / api.py — Agent orchestration and FastAPI backend
+tools/ — Manufacturing data queries, quality investigations, and procedure search
+data/ — Synthetic manufacturing records
+procedures/ — Reference procedures for contamination, controlled holds, and scrap disposition
+web/ — Next.js frontend and API route
+requirements.txt — Python dependencies
+.env.example — Required environment variable template
 
 
 ## Prerequisites
