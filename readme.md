@@ -21,7 +21,6 @@ An AI-powered manufacturing investigation assistant for leadless cardiac pacemak
 - **Communication:** HTTP API and server-sent events (SSE)
 
 ## Project Structure
-
 lcp-agent/
 ├── agent.py
 ├── api.py
