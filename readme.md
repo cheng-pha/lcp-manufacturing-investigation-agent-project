@@ -22,11 +22,17 @@ An AI-powered manufacturing investigation assistant for leadless cardiac pacemak
 
 ## Project Structure
 agent.py / api.py — Agent orchestration and FastAPI backend
+
 tools/ — Manufacturing data queries, quality investigations, and procedure search
+
 data/ — Synthetic manufacturing records
+
 procedures/ — Reference procedures for contamination, controlled holds, and scrap disposition
+
 web/ — Next.js frontend and API route
+
 requirements.txt — Python dependencies
+
 .env.example — Required environment variable template
 
 
